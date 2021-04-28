@@ -35,7 +35,6 @@
 <script>
 import LoginCard from "../components/LoginCard";
 import BaseButton from "../../../components/UI/BaseButton";
-import axios from "axios";
 
 export default {
   components: { "login-card": LoginCard, "base-button": BaseButton },
@@ -50,37 +49,7 @@ export default {
   methods: {
     submitForm(event) {
       event.preventDefault();
-      if ((this.nik.length > 0) & (this.password.length > 0)) {
-        // get user login
-        axios
-          .post({
-            method: "post",
-            url: "/user/12345",
-            data: {
-              nik: this.nik,
-              password: this.password,
-            },
-            timeout: 5000,
-          })
-          .then((response) => {
-            // response user
-            console.log(response);
-          })
-          .catch((error) => {
-            if (error.response) {
-              // error response
-              console.log(error.response.data);
-              console.log(error.response.status);
-              console.log(error.response.headers);
-            } else if (error.request) {
-              // error request
-              console.log(error.request);
-            } else {
-              // ordinary error
-              console.log("Error", error.message);
-            }
-          });
-      }
+      this.$router.push({ path: "/" });
     },
   },
   created() {

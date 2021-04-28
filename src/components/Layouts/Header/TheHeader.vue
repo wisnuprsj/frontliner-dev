@@ -9,7 +9,11 @@
           <p>{{ "username" }} : {{ "10003753" }}</p>
         </div>
         <div class="auth">
-          <BaseButton type="button" classes="button btn-4" danger
+          <BaseButton
+            type="button"
+            classes="button btn-4"
+            danger
+            v-on:click="handleLogOut"
             >LOG OUT</BaseButton
           >
         </div>
@@ -24,6 +28,11 @@ import BaseButton from "../../UI/BaseButton";
 export default {
   components: {
     BaseButton,
+  },
+  methods: {
+    handleLogOut() {
+      this.$router.push({ path: "/login" });
+    },
   },
 };
 </script>
