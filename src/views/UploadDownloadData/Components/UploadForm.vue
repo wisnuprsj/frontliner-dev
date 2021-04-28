@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-6 col-form-label" for="periode-insentif"
+          <label class="col-sm-5 col-form-label" for="periode-insentif"
             >Periode Insentif :</label
           >
           <div class="col-sm-5 text-nowrap">
@@ -15,17 +15,15 @@
               dateFormat="MMMM YYYY"
             />
           </div>
-          <div class="col-sm-3"></div>
         </div>
         <div class="form-group row">
-          <label class="col-sm-6 col-form-label" for="portfolio"
+          <label class="col-sm-5 col-form-label" for="portfolio"
             >Portfolio :</label
           >
           <div class="col-sm-5">
             <input id="portfolio" type="text" class="form-control" />
           </div>
         </div>
-        <div class="col-sm-3">&nbsp;</div>
       </div>
       <div class="col-md-6">
         <div class="form-group row">
