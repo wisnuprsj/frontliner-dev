@@ -12,7 +12,7 @@ import Report from "../views/Report/Pages/Report.vue";
 import Login from "../views/Login/pages/Login.vue";
 
 const router = new VueRouter({
-  mode: "history",
+  // mode: "history",
   linkExactActiveClass: "is-active",
   routes: [
     {

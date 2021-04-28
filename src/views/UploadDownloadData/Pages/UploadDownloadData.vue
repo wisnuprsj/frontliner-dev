@@ -96,7 +96,7 @@ export default {
 }
 
 .updown-data__parameter-wrapper form {
-  width: 700px;
+  /* width: 700px; */
   padding: 20px;
 }
 
