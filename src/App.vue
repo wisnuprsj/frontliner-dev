@@ -97,6 +97,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+p,
+span {
+  margin: 0px;
+  padding: 0px;
+}
+
 #app {
   width: 100vw;
   height: 100vh;
@@ -111,32 +117,19 @@ body {
   display: flex;
   width: 100%;
 }
-/* 
-.fade-enter {
-  opacity: 0;
+
+div.menu__title h1 {
+  font-size: 2rem;
 }
 
-.fade-enter-active {
-  transition: opacity 5s ease-in-out;
-  animation: slide-in 3s ease-in-out forwards;
-  opacity: 1;
-}
-
-.fade-leave {
-  opacity: 1;
-}
-
-.fade-leave-active {
-  transition: opacity 5s ease-in-out;
-  opacity: 0;
-}
-
-@keyframes slide-in {
-  from {
-    transform: translateX(300px);
+@media (max-width: 1366px) {
+  div.menu__title h1 {
+    font-size: 1.5rem;
   }
-  to {
-    transform: translateX(0);
+
+  span,
+  p {
+    font-size: 12px;
   }
-} */
+}
 </style>

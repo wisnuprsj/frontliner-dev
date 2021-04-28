@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard">
-    <div class="dashboard__title">
+    <div class="menu__title">
       <h1>{{ title.toUpperCase() }}</h1>
     </div>
     <div class="dashboard__parameter">
@@ -99,7 +99,7 @@ export default {
   background-color: #f8f8f8;
 }
 
-.dashboard__title {
+.menu__title {
   padding: 20px;
 }
 
@@ -141,6 +141,6 @@ export default {
 }
 
 .dashboard__status .card__footer {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="koreksi">
-    <div class="koreksi__title">
+    <div class="menu__title">
       <h1>{{ title.toUpperCase() }}</h1>
     </div>
     <div class="koreksi__parameter">
@@ -37,14 +37,14 @@ export default {
   background-color: #f8f8f8;
 }
 
-.koreksi__title {
+.menu__title {
   padding: 20px;
 }
 
 .koreksi__parameter {
   width: 100%;
   text-align: center;
-  padding: 20px 20px 20px 100px;
+  padding: 0px 20px 20px 80px;
 }
 
 .koreksi__parameter-wrapper {

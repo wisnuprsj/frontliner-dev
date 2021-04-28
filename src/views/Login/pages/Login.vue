@@ -65,7 +65,7 @@ export default {
 .login {
   height: 100vh;
   width: 100vw;
-  padding: 30vh 0;
+  padding: 25vh 0;
   text-align: center;
   background-color: #fbd46d;
 }

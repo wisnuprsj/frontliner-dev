@@ -1,6 +1,6 @@
 <template>
   <div class="master-data">
-    <div class="master-data__title">
+    <div class="menu__title">
       <h1>{{ title.toUpperCase() }}</h1>
     </div>
 
@@ -33,14 +33,14 @@ export default {
   background-color: #f8f8f8;
 }
 
-.master-data__title {
+.menu__title {
   padding: 20px;
 }
 
 .master-data__parameter {
   width: 100%;
   text-align: center;
-  padding: 20px 20px 20px 100px;
+  padding: 0px 20px 20px 80px;
 }
 
 .master-data__parameter-wrapper {

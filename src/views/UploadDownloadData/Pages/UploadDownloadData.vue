@@ -1,6 +1,6 @@
 <template>
   <div class="updown-data">
-    <div class="updown-data__title">
+    <div class="menu__title">
       <h1>{{ title.toUpperCase() }}</h1>
     </div>
     <div class="updown-data__parameter">
@@ -77,14 +77,14 @@ export default {
   background-color: #f8f8f8;
 }
 
-.updown-data__title {
+.menu__title {
   padding: 20px;
 }
 
 .updown-data__parameter {
   width: 100%;
   text-align: center;
-  padding: 20px 20px 20px 100px;
+  padding: 0px 20px 20px 80px;
 }
 
 .updown-data__parameter-wrapper {
@@ -92,7 +92,7 @@ export default {
   background: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 0px 10px 10px 10px;
-  padding: 20px 5px 20px 20px;
+  /* padding: 20px 5px 20px 20px; */
 }
 
 .updown-data__parameter-wrapper form {

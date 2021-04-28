@@ -1,6 +1,6 @@
 <template>
   <div class="param">
-    <div class="param-title">
+    <div class="menu__title">
       <h1>{{ title.toUpperCase() }}</h1>
     </div>
     <div class="param__parameter">
@@ -79,14 +79,14 @@ export default {
   background-color: #f8f8f8;
 }
 
-.param-title {
+.menu__title {
   padding: 20px;
 }
 
 .param__parameter {
   width: 100%;
   text-align: center;
-  padding: 20px 20px 20px 100px;
+  padding: 0px 20px 20px 80px;
 }
 
 .param__parameter-wrapper {

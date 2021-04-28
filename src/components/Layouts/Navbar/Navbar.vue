@@ -48,4 +48,18 @@ ul {
   font-size: 22px;
   font-weight: bold;
 }
+
+.sidebar .title-menu span {
+  font-size: 1.25rem !important;
+}
+
+@media (max-width: 1366px) {
+  .sidebar .title-menu {
+    font-size: 16px;
+  }
+
+  .sidebar {
+    width: 350px;
+  }
+}
 </style>

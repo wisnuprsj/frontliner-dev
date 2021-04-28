@@ -20,17 +20,23 @@
   text-align: center;
   margin: 0;
   width: 270px;
-  height: 270px;
+  height: 240px;
 }
 
-header {
+header :nth-child(1) {
   background-color: #61b15a;
   padding: 1rem;
-  font-size: 16px;
+  font-size: 16px !important;
   font-weight: bold;
 }
 
 .body {
   padding: 40px 20px 0px 20px;
+}
+
+@media (max-width: 1366px) {
+  .body {
+    padding: 20px 10px 0px 10px;
+  }
 }
 </style>

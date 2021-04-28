@@ -52,6 +52,14 @@ export default {
 .header__logo img {
   width: 300px;
   height: 100%;
+  padding: 10px;
+}
+
+@media (max-width: 1366px) {
+  .header__logo img {
+    width: 260px;
+    height: 100%;
+  }
 }
 
 .header__content {

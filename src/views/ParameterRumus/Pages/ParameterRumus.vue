@@ -1,6 +1,6 @@
 <template>
   <div class="parameter-rumus">
-    <div class="title">
+    <div class="menu__title">
       <h1>{{ title.toUpperCase() }}</h1>
     </div>
   </div>
@@ -22,7 +22,7 @@ export default {
   background-color: #f8f8f8;
 }
 
-.title {
+.menu__title {
   padding: 20px;
 }
 </style>

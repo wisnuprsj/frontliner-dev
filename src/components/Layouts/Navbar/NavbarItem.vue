@@ -60,4 +60,10 @@ li.router-link-exact-active {
 li.router-link-exact-active i {
   color: #00ad7c;
 }
+
+@media (max-width: 1366px) {
+  li {
+    font-size: 11px;
+  }
+}
 </style>
