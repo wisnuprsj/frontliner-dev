@@ -12,7 +12,7 @@ import Report from "../views/Report/Pages/Report.vue";
 import Login from "../views/Login/pages/Login.vue";
 
 const router = new VueRouter({
-  // mode: "history",
+  mode: "history",
   linkExactActiveClass: "is-active",
   routes: [
     {
@@ -89,6 +89,10 @@ const router = new VueRouter({
     { path: "*", redirect: "/front-liner-incentif" },
     { path: "/*", redirect: "/front-liner-incentif" },
   ],
+});
+
+router.beforeEach((to, from, next) => {
+  next();
 });
 
 export default router;
