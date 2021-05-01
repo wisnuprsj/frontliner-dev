@@ -20,7 +20,7 @@
   text-align: center;
   margin: 0;
   width: 270px;
-  height: 240px;
+  height: 270px;
 }
 
 header :nth-child(1) {

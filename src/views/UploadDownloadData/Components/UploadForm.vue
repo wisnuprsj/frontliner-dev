@@ -24,6 +24,17 @@
             <input id="portfolio" type="text" class="form-control" />
           </div>
         </div>
+        <!-- <b-form-group
+          label-cols-sm="5"
+          label="Portfolio : "
+          label-cols-lg="5"
+          content-cols-sm="5"
+          content-cols-lg="5"
+          label-align="right"
+          label-for="portfolio"
+        >
+          <b-form-input id="portfolio" />
+        </b-form-group> -->
       </div>
       <div class="col-md-6">
         <div class="form-group row">
