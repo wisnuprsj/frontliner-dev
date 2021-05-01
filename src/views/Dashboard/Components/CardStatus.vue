@@ -20,7 +20,7 @@
   text-align: center;
   margin: 0;
   width: 270px;
-  height: 270px;
+  height: 250px;
 }
 
 header :nth-child(1) {
@@ -31,7 +31,7 @@ header :nth-child(1) {
 }
 
 .body {
-  padding: 40px 20px 0px 20px;
+  padding: 20px 20px 0px 20px;
 }
 
 @media (max-width: 1366px) {

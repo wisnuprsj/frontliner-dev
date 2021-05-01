@@ -7,10 +7,10 @@
       <div class="dashboard__parameter-wrapper">
         <form v-on:submit.prevent="handleSubmit">
           <div class="form-group row">
-            <label class="col-sm-4 col-form-label" for="periode-insentif"
+            <label class="col-sm-5 col-form-label" for="periode-insentif"
               >Periode Insentif :</label
             >
-            <div class="col-sm-7">
+            <div class="col-sm-6">
               <vue-monthly-picker
                 id="periode-insentif"
                 type="month"
@@ -142,5 +142,9 @@ export default {
 
 .dashboard__status .card__footer {
   margin-top: 30px;
+}
+
+.form-group label {
+  text-align: end;
 }
 </style>
